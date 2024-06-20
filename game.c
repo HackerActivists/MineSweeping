@@ -8,7 +8,6 @@ int main()
     scanf("%d", &choose);
     do
     {
-
         switch (choose)
         {
         case 0:
