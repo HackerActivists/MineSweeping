@@ -11,11 +11,13 @@ int main()
 
         switch (choose)
         {
+        case 0:
+            printf("Exit succefssful!\n");
+            break;            
         case 1:
             Run_Game();
             scanf("%d", &choose);
             break;
-
         default:
             printf("Your input error,Please afrsh input!!!\n");
             printf("Your choose is :");
